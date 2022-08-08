@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+:root{
+    --primary-Light-Cyan: hsl(193, 38%, 86%);
+    --primary-Neon-Green: hsl(150, 100%, 66%);
+
+    --Neutral-Grayish-Blue: hsl(217, 19%, 38%);
+    --Neutral-Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Neutral-Dark-Blue: hsl(218, 23%, 16%);
+
+    --text-font:'Manrope', sans-serif;
+    --text-weight:800;
+}
+
+body{
+    background-image: url("https://img.freepik.com/premium-vector/elegant-white-texture-background_23-2148431731.jpg?w=2000");
+    display: flex;
+    flex-direction: column;
+    font-family: var(--text-font);
+}
+section{
+    background-color: var(--Neutral-Dark-Blue);
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+    max-width: 100%;
+}
+.adviceSection{
+   background-color: var(--Neutral-Dark-Grayish-Blue);
+    display: flex;
+    flex-direction: column;
+    margin: 4% auto;
+    height: 300px;
+    width: 420px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px var( --Neutral-Dark-Blue);
+}
+span{
+    color: var(--primary-Neon-Green);
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-size: 14px;
+    padding-bottom:10%;
+    
+}
+#quote{
+    color: var(--primary-Light-Cyan);
+    font-size: 25px;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+.divider{
+    width:444px;
+     height:16px;
+     padding-bottom: 10%;
+     position: relative;
+}
+
+button{
+    border:none;
+    padding: 18px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-Neon-Green);
+    position: fixed;
+    bottom: 24%;
+    cursor: pointer;
+
+}
+
+@media screen and(max-width:1440px) {
+
+    
+}
+
+@media screen and(max-width:375px) {
+    
+}
