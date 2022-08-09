@@ -55,8 +55,11 @@ span{
     padding-bottom: 10%;
     text-align: center;
 }
-
-.divider{
+.dividerMobile{
+    display: none;
+}
+.dividerDesktop
+{
     width:444px;
      height:16px;
      padding-bottom: 10%;
@@ -76,11 +79,49 @@ button{
 
 }
 
-@media screen and(max-width:1440px) {
 
-    
+@media screen and (max-width:1440px) {
+    section{
+        margin: 0;
+        width: 100%;
+    }
+   
 }
 
-@media screen and(max-width:375px) {
+@media screen and (max-width:520px) {
     
+    .adviceSection{
+        background-color: var(--Neutral-Dark-Grayish-Blue);
+         display: flex;
+         flex-direction: column;
+         margin: 4% auto;
+         height: 350px;
+         width:80%;
+       
+     }
+            
+     section{
+        width: 100%;
+        margin: 0;
+     }
+     .dividerMobile{
+        display: block;
+        position: relative;
+    }
+    .dividerDesktop
+    {
+        display: none;
+    }
+    
+        
+        
+
+}
+@media screen and (max-width:375px) {
+    .dividerMobile{
+        display: block;
+        position: relative;
+        width: 100%
+        ;
+    }
 }
