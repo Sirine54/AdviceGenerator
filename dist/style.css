@@ -72,14 +72,19 @@ button{
     border-radius: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: var(--primary-Neon-Green);
     position: fixed;
     bottom: 24%;
     cursor: pointer;
+    position: relative;
+    transition: .5s all ease;
 
 }
-
-
+button:hover{
+    border:2px solid var(--primary-Neon-Green);
+    background-color: black;
+}
 @media screen and (max-width:1440px) {
     section{
         margin: 0;

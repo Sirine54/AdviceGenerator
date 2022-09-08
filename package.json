@@ -1,5 +1,28 @@
 {
   "dependencies": {
     "axios": "^0.27.2"
-  }
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "name": "advice-generator-app-main",
+  "description": "![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.5.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sirine54/AdviceGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sirine54/AdviceGenerator/issues"
+  },
+  "homepage": "https://github.com/Sirine54/AdviceGenerator#readme"
 }

@@ -12,7 +12,7 @@ fetch('https://api.adviceslip.com/advice')
     quote.innerHTML=data.slip.advice;
     console.log(data.slip.id)
     num.innerHTML=data.slip.id;
-}).catch((err)=>{
+}).catch(()=>{
    quote.innerHTML="No internet connection,Try later"
 })
 }
